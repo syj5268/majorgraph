@@ -21,11 +21,10 @@ const Main = () => {
     return (<div class="container">
     <img src="./seoul.png"></img>
       <Link to="/yonsei">
-        <Button class="yonsei" variant="primary">나는 연세버튼</Button> 
+        <Button className="btn-b1" variant="primary">나는 연세버튼</Button> 
       </Link>
-      <Link to="/korea">
-        
-      <Button class="btn-b2" variant="primary">나는 고려버튼</Button> 
+      <Link className="btn-b2"  to="/korea">
+      <Button variant="primary">나는 고려버튼</Button> 
       </Link>
      
       <a

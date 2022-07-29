@@ -12,6 +12,7 @@ import Korea from './page/korea'
 import Yonsei from './page/yonsei'
 import Main from './page/main'
 
+import "./page/main.css"
 
 
 function App() {
