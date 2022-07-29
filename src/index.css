@@ -31,7 +31,11 @@ body {
 }
 
 /* Style the button and place it in the middle of the container/image */
+<<<<<<< HEAD
 .container .btn{
+=======
+.container .a {
+>>>>>>> 8fc92c7df93ddc19f5c6185d5f9493931efe144b
   position: absolute;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
