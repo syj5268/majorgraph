@@ -7,7 +7,9 @@ function App() {
       
       <div class="container">
       <img src="./seoul.png"></img>
-        <Button variant="primary">나는 버튼</Button>
+        <Button variant="b1">간호대학</Button>
+        <Button variant="b2">경영대학</Button>
+        <Button variant="b3">공과대학</Button>
         
         
         </div>
