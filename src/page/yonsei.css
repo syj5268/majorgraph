@@ -1,0 +1,54 @@
+.container .inner-div {
+    width : 100%;
+    height : 100px;
+ 
+    text-align:center
+  }
+
+  ul {
+    list-style: none;
+
+}
+
+li {
+    width: 250px;
+    height: 500px;
+    background-color: aliceblue;
+    list-style: none;
+    float : left;
+
+  
+   
+    flex-direction: column;
+}
+
+p{
+    font-size: x-small;
+
+    line-height: 1;
+}
+
+.btn {
+  
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: white;
+    font-size: 4px;
+    font-family: "NSR";
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width:95px;
+    height:20px;
+}
+
+.container .btn:hover {
+    background-color: #88C1FF;
+    color: white;
+}
+
+.container .btn-b1 {
+
+   
+}

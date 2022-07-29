@@ -29,7 +29,7 @@ const Main = () => {
         <div class="container2">
         
     <img src="./seoul.png"></img>
-      <Link to="/yonsei">
+      <Link to="/korea">
         <Button className="btn-b1" variant="primary">국제대학</Button> 
       </Link>
       <Link   to="/korea">
@@ -72,7 +72,7 @@ const Main = () => {
     
      
    
-      <Link   to="/korea">
+      <Link   to="/yonsei">
       <Button className="btn-b13" variant="primary">이과대학</Button> 
       </Link>
       <Link   to="/korea">

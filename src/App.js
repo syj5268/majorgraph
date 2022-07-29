@@ -14,7 +14,6 @@ import Main from './page/main'
 
 import "./page/main.css"
 
-
 function App() {
   return (
     <BrowserRouter>
