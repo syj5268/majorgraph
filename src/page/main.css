@@ -1,37 +1,100 @@
+
 .container .btn {
     position: absolute;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #727272;
     color: white;
-    font-size: 16px;
+    font-size: 11px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    width:130px;
 }
 
 .container .btn:hover {
-    background-color: purple;
+    background-color: #88C1FF;
     color: white;
 }
 
 .container .btn-b1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-  
+    top: 21%;
+    left: 55%;
 }
   
 
-.btn-b2 {
+.container .btn-b2 {
     position: absolute;
-    top: 10%;
-    left: 50%;
+    top: 33%;
+    left: 55%;
 }
   
-.btn-b3 {
+.container .btn-b3 {
     position: absolute;
-    top: 50%;
-    left: 10%;
+    top: 40%;
+    left: 50%;
 }
+
+.container .btn-b4 {
+    position: absolute;
+    top: 42%;
+    left: 40%;
+}
+.container .btn-b5 {
+    position: absolute;
+    top: 48%;
+    left: 52%;
+}
+.container .btn-b6 {
+    position: absolute;
+    top: 33%;
+    left: 73%;
+}
+.container .btn-b7 {
+    position: absolute;
+    top: 53%;
+    left: 74%;
+}
+.container .btn-b8 {
+    position: absolute;
+    top: 62%;
+    left: 20%;
+}
+.container .btn-b9 {
+    position: absolute;
+    top: 71%;
+    left: 20%;
+}
+.container .btn-b10 {
+    position: absolute;
+    top: 69%;
+    left: 43%;
+}
+.container .btn-b11 {
+    position: absolute;
+    top: 80%;
+    left: 44%;
+}
+.container .btn-b12 {
+    position: absolute;
+    top: 72%;
+    left: 56%;
+}
+.container .btn-b13 {
+    position: absolute;
+    top: 71%;
+    left: 67%;
+}
+.container .btn-b14 {
+    position: absolute;
+    top: 68%;
+    left: 81%;
+}
+.container .btn-b15 {
+    position: absolute;
+    top: 52%;
+    left: 88%;
+}
+
