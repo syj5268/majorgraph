@@ -22,6 +22,9 @@ const Main = () => {
     return (<div class="container">
             <div className='inner-div'>
                <h1 className='title'>Major Graph</h1>
+              <div  className='subtitleConatiner'>
+               <h4 className='subtitle'>학과를 눌러 공지사항과 대외활동을 한 눈에 확인하세요</h4>
+               </div>
                </div>
         <div class="container2">
         
@@ -94,6 +97,7 @@ const Main = () => {
 <span class="dot"> <img className='portal' src="./buttons/portal.png"></img></span>
       
     </a>
+    <h5>포털</h5>
     </li>
 	<li>      
                 <a
@@ -106,6 +110,7 @@ const Main = () => {
 <span class="dot"> <img className='portal' src="./buttons/kuchive.png"></img></span>
       
     </a>
+    <h5>쿠카이브</h5>
     </li>
     <li>      
                 <a
@@ -118,6 +123,7 @@ const Main = () => {
 <span class="dot"> <img className='portal' src="./buttons/career.png"></img></span>
       
     </a>
+    <h5>경개센</h5>
     </li>
     <li>      
                 <a
@@ -130,6 +136,7 @@ const Main = () => {
 <span class="dot"> <img className='portal' src="./buttons/ment.png"></img></span>
       
     </a>
+    <h5>AI선배</h5>
     </li>
     <li>      
                 <a
@@ -142,6 +149,7 @@ const Main = () => {
 <span class="dot"> <img className='portal' src="./buttons/int.png"></img></span>
       
     </a>
+    <h5>국제처</h5>
     </li>
 		</ul>
     </div>
