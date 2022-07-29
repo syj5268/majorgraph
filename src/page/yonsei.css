@@ -1,18 +1,29 @@
-.container .inner-div {
+/* .container .inner-div {
     width : 100%;
     height : 100px;
  
     text-align:center
+  } */
+
+  h1 {
+
+    font-family: "NSacL";
+    color: white;
+  
   }
 
   ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-li {
+.container .box {
     width: 250px;
     height: 500px;
+    margin-left: 10px;
     background-color: aliceblue;
     list-style: none;
     float : left;
@@ -20,6 +31,10 @@ li {
   
    
     flex-direction: column;
+}
+
+.container .boxcontainer {
+    margin-top: 30px;
 }
 
 p{
@@ -39,7 +54,7 @@ p{
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    width:95px;
+    width: 95px;
     height:20px;
 }
 
@@ -52,3 +67,5 @@ p{
 
    
 }
+
+

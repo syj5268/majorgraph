@@ -11,6 +11,7 @@ import {
 import Korea from './page/korea'
 import Yonsei from './page/yonsei'
 import Main from './page/main'
+import WordCloud from "./page/wordCloud";
 
 import "./page/main.css"
 
@@ -20,7 +21,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/korea" element={<Korea />} />
-        <Route path="/yonsei" element={<Yonsei />} />
+        <Route path="/science" element={<Yonsei />} />
+        <Route path="/earthenv" element={<WordCloud/>}/>
       </Routes>
     </BrowserRouter>
   )

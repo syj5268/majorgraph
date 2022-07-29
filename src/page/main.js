@@ -19,7 +19,8 @@ const Main = () => {
       };
 
 
-    return (<div class="container">
+    return (
+    <div class="container">
             <div className='inner-div'>
                <h1 className='title'>Major Graph</h1>
               <div  className='subtitleConatiner'>
@@ -72,7 +73,7 @@ const Main = () => {
     
      
    
-      <Link   to="/yonsei">
+      <Link   to="/science">
       <Button className="btn-b13" variant="primary">이과대학</Button> 
       </Link>
       <Link   to="/korea">

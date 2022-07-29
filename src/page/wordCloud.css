@@ -1,0 +1,14 @@
+.container {
+	text-align: center;
+}
+.title {
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+.wordcloud {
+	width: 600px;
+}
+
+.ButtonGroupContainer{
+ margin:auto;
+}
