@@ -4,7 +4,13 @@ import Button from 'react-bootstrap/Button';
 function App() {
   return (
     <div className="App">
-      <Button variant="primary">나는 버튼</Button>
+      
+      <div class="container">
+      <img src="./seoul.png"></img>
+        <Button variant="primary">나는 버튼</Button>
+        
+        
+        </div>
     </div>
   );
 }
