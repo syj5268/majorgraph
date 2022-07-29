@@ -1,0 +1,38 @@
+
+  
+.container .btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container .btn:hover {
+    background-color: purple;
+    color: white;
+}
+
+.container .yonsei {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+  
+
+.container .btn-b2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+  
+.container .btn-b3 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
