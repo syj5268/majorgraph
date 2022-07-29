@@ -11,27 +11,31 @@ import {
 } from "react-router-dom";
 import Korea from './page/korea'
 import Yonsei from './page/yonsei'
+import Main from './page/main'
+
+
 
 function App() {
+
+  const handleAnchorClick = event => {
+    // 👇️ use event.preventDefault() if you want to
+    // prevent navigation
+    // event.preventDefault();
+
+    console.log('Anchor element clicked');
+
+    // 👇️ refers to the link element
+    console.log(event.currentTarget);
+  };
+
+
   return (
     <BrowserRouter>
-      <div>
-        <div class="container">
-        <img src="./seoul.png"></img>
-          <Link to="/yonsei">
-            {/* <Button variant="primary">나는 연세버튼</Button> */}
-            나는 연세버튼
-          </Link>
-          <Link to="/korea">나는 고려버튼
-          </Link>
-        </div>
-        <Routes>
-          <Route path="/korea" element={<Korea/>}>
-          </Route>
-          <Route path="/yonsei" element={<Yonsei/>}>
-          </Route>
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/korea" element={<Korea />} />
+        <Route path="/yonsei" element={<Yonsei />} />
+      </Routes>
     </BrowserRouter>
   );
 }
