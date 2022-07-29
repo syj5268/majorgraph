@@ -66,16 +66,9 @@ const Main = () => {
       <Button className="btn-b12" variant="primary">보건대학
       </Button> 
       </Link>
-      <Link   to="/korea">
-      <Button className="btn-b13" variant="primary">미디어학부</Button> 
-      </Link>
-      <Link   to="/korea">
-      <Button className="btn-b11" variant="primary">공과대학</Button> 
-      </Link>
-      <Link   to="/korea">
-      <Button className="btn-b12" variant="primary">보건대학
-      </Button> 
-      </Link>
+    
+     
+   
       <Link   to="/korea">
       <Button className="btn-b13" variant="primary">이과대학</Button> 
       </Link>
@@ -87,12 +80,70 @@ const Main = () => {
       </Link>
       </div>
 
-      
+
     <div className='bottom-div'>
-      <ol>
-			<li>목록1</li>
-			<li>목록2</li>
-		</ol>
+      <ul>
+			<li>      
+                <a
+      onClick={handleAnchorClick}
+      href="https://portal.korea.ac.kr"
+      target="_blank"
+      rel="noreferrer"
+    >
+
+<span class="dot"> <img className='portal' src="./buttons/portal.png"></img></span>
+      
+    </a>
+    </li>
+	<li>      
+                <a
+      onClick={handleAnchorClick}
+      href="https://kuchive.korea.ac.kr"
+      target="_blank"
+      rel="noreferrer"
+    >
+
+<span class="dot"> <img className='portal' src="./buttons/kuchive.png"></img></span>
+      
+    </a>
+    </li>
+    <li>      
+                <a
+      onClick={handleAnchorClick}
+      href="https://job.korea.ac.kr"
+      target="_blank"
+      rel="noreferrer"
+    >
+
+<span class="dot"> <img className='portal' src="./buttons/career.png"></img></span>
+      
+    </a>
+    </li>
+    <li>      
+                <a
+      onClick={handleAnchorClick}
+      href="https://aiku.korea.ac.kr"
+      target="_blank"
+      rel="noreferrer"
+    >
+
+<span class="dot"> <img className='portal' src="./buttons/ment.png"></img></span>
+      
+    </a>
+    </li>
+    <li>      
+                <a
+      onClick={handleAnchorClick}
+      href="https://studyabroad.korea.ac.kr"
+      target="_blank"
+      rel="noreferrer"
+    >
+
+<span class="dot"> <img className='portal' src="./buttons/int.png"></img></span>
+      
+    </a>
+    </li>
+		</ul>
     </div>
 
     </div>

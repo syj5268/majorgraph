@@ -20,7 +20,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #727272;
+    background-color: rgba(127,127,127,0.7);
     color: white;
     font-size: 4px;
     
@@ -58,7 +58,7 @@
 .container .btn-b4 {
     position: absolute;
     top: 42%;
-    left: 40%;
+    left: 30%;
 }
 .container .btn-b5 {
     position: absolute;
@@ -97,7 +97,7 @@
 }
 .container .btn-b12 {
     position: absolute;
-    top: 72%;
+    top: 75%;
     left: 56%;
 }
 .container .btn-b13 {
@@ -112,12 +112,39 @@
 }
 .container .btn-b15 {
     position: absolute;
-    top: 52%;
+    top: 58%;
     left: 88%;
 }
 
 .container .bottom-div {
-  
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin-top: 50px;
 }
 
+ul {
+    list-style: none;
 
+}
+
+li {
+    list-style: none;
+    float : left;
+}
+
+.container .portal {
+    width:50%;
+}
+
+.dot {
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    display:flex;
+  }
