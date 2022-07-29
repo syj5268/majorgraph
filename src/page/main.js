@@ -20,7 +20,11 @@ const Main = () => {
 
 
     return (<div class="container">
+            <div className='inner-div'>
+               <h1 className='title'>Major Graph</h1>
+               </div>
         <div class="container2">
+        
     <img src="./seoul.png"></img>
       <Link to="/yonsei">
         <Button className="btn-b1" variant="primary">국제대학</Button> 
@@ -81,16 +85,16 @@ const Main = () => {
       <Link   to="/korea">
       <Button className="btn-b15" variant="primary">스마트보안학부</Button> 
       </Link>
-      
-      {/* <a
-      onClick={handleAnchorClick}
-      href="https://google.com"
-      target="_blank"
-      rel="noreferrer"
-    >
-       <Button className="btn-b4" variant="primary">구글버튼</Button> 
-    </a> */}
       </div>
+
+      
+    <div className='bottom-div'>
+      <ol>
+			<li>목록1</li>
+			<li>목록2</li>
+		</ol>
+    </div>
+
     </div>
     )
 }

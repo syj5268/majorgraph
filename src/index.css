@@ -21,7 +21,8 @@ body {
 
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
+  align-items: center;
 }
 
 /* Make the image responsive */
